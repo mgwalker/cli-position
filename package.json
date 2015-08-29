@@ -1,0 +1,13 @@
+{
+  "name": "cli-position",
+  "version": "1.0.0",
+  "description": "Sets the current position of the CLI or modifies it relative to its current position.",
+  "main": "bin/main.js",
+  "keywords": [
+    "cli",
+    "position",
+    "cursor"
+  ],
+  "author": "Greg Walker <cli-position@darkcooger.net>",
+  "license": "ISC"
+}
