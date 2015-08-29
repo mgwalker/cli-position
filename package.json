@@ -3,11 +3,22 @@
   "version": "1.0.0",
   "description": "Sets the current position of the CLI or modifies it relative to its current position.",
   "main": "bin/main.js",
+  "files": [
+    "bin/main.js"
+  ],
   "keywords": [
     "cli",
     "position",
     "cursor"
   ],
+  "scripts": {
+    "prebuild": "eslint --env node,es6 src/*.js",
+    "build": "babel --no-comments --compact -d bin src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mgwalker/cli-position"
+  },
   "author": "Greg Walker <cli-position@darkcooger.net>",
   "license": "ISC"
 }
