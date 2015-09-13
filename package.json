@@ -12,7 +12,7 @@
     "cursor"
   ],
   "scripts": {
-    "prebuild": "eslint --env node,es6 src/*.js",
+    "prebuild": "cooger-style src/*.js",
     "build": "babel --no-comments --compact -d bin src"
   },
   "repository": {
@@ -20,5 +20,9 @@
     "url": "mgwalker/cli-position"
   },
   "author": "Greg Walker <cli-position@darkcooger.net>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "cooger-style": "^1.0.1"
+  }
 }
