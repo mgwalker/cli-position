@@ -1,6 +1,6 @@
 {
   "name": "cli-position",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sets the current position of the CLI or modifies it relative to its current position.",
   "main": "bin/main.js",
   "files": [
